@@ -44,7 +44,7 @@ module.exports.session = {
   *                                                                          *
   ***************************************************************************/
 
-  // adapter: 'redis',
+  adapter: 'connect-redis',
 
   /***************************************************************************
   *                                                                          *
@@ -54,12 +54,13 @@ module.exports.session = {
   * https://github.com/visionmedia/connect-redis                             *
   *                                                                          *
   ***************************************************************************/
-
-  // host: 'localhost',
-  // port: 6379,
+//redis://redistogo:3e59e280d8081060025c189ce620ea17@koi.redistogo.com:10941/ 
+   host: 'koi.redistogo.com',
+   port: 10941,
+   user: 'redistogo',
   // ttl: <redis session TTL in seconds>,
   // db: 0,
-  // pass: <redis auth password>,
+   pass: '3e59e280d8081060025c189ce620ea17',
   // prefix: 'sess:',
 
 

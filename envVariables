@@ -1,0 +1,3 @@
+MONGOLAB_URI="mongodb://sobral:1234@ds155529.mlab.com:55529/emobook"
+EDISTOGO_URL="redis://redistogo:3e59e280d8081060025c189ce620ea17@koi.redistogo.com:10941/" 
+

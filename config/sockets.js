@@ -51,6 +51,11 @@ module.exports.sockets = {
   // pass: '<redis auth password>',
 
 
+   adapter: 'socket.io-redis',
+   host: 'koi.redistogo.com',
+   port: 10941,
+   user: 'redistogo',
+   pass: '3e59e280d8081060025c189ce620ea17',
 
  /***************************************************************************
   *                                                                          *
