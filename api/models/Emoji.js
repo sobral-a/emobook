@@ -10,8 +10,15 @@ module.exports = {
   attributes: {
     text: {
       type : 'string'
-    }
-
+    },
+    owner: {
+     // model: 'User'
+     type:'string'
+    },
+   // leastFavoriteOf: {
+    //  collection: 'User',
+     // via: 'leastFavoriteEmojis'
+    //}
   }
 };
 

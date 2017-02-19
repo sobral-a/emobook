@@ -32,8 +32,19 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-    view: 'homepage'
+  'GET /': {
+    controller: 'UserController',
+    action: 'findOne'
+  },
+  
+  'GET /:screenName': {
+    controller: 'UserController',
+    action: 'findOne'
+  },
+
+  '/emoji/:id/takeover' : {
+    controller:'EmojiController',
+    action: 'associatedWithUser'
   }
 
   /***************************************************************************
